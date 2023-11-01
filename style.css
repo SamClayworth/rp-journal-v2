@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background: url(/images/paperBG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
